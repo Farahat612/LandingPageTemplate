@@ -13,6 +13,7 @@ body {
     color: #333;
     background-color: #f4f4f4;
     padding-top: 80px;
+    position: relative;
 }
 /* End Of Global Styles*/
 
@@ -81,6 +82,46 @@ section {
     padding: 1.25rem 0;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 /* End Of Global Section Styles*/
+
+
+
+/* Container Styles */
+.container {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+/* End of Container Styles*/
+
+
+
+/* Grid Row Styles */
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.25rem;
+    justify-items: space-between;
+    align-items: center;
+    height: 100%;
+}
+/* End of Grid Row Styles */
+
+
+/* Grid Column Styles */
+.col {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    position: relative;
+    height: 100%;
+}
+/* End of Grid Column Styles */
+
+
 
