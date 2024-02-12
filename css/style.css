@@ -55,5 +55,14 @@ a:hover {
 img {
     max-width: 100%;
 }
+/* End Of Global Elements Styles*/
 
+
+/* Global Sections Styles */
+section {
+    padding: 1.25rem 0;
+    width: 100%;
+    margin: 0 auto;
+}
+/* End Of Global Section Styles*/
 
