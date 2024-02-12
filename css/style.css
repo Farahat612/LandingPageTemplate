@@ -82,6 +82,11 @@ img {
 }
 /* End Of Global Elements Styles*/
 
+/*
+================================
+End of CSS Reset
+*/
+
 
 
 
@@ -159,11 +164,30 @@ Utility Classes
     justify-content: center;
     align-items: center;
 }
+
+.flex-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* End of Flex utilities*/
 
 /*
 ================================
 End of Utility Classes
+================================
+*/
+
+
+
+/*
+================================
+Page content styles
 ================================
 */
 
