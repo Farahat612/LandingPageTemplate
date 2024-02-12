@@ -1,8 +1,10 @@
+/* Global Styles */
 *, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -12,4 +14,46 @@ body {
     background-color: #f4f4f4;
     padding-top: 80px;
 }
+/* End Of Global Styles*/
+
+
+
+/* GLobal Elements Styles*/
+h1, h2, h3 {
+    margin-bottom: 1.25rem;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+a {
+    color: #303030;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e8631c;
+}
+
+img {
+    max-width: 100%;
+}
+
 
