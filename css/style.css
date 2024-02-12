@@ -1,3 +1,9 @@
+/*
+================================
+CSS Reset
+================================
+
+*/
 /* Global Styles */
 *, *::after, *::before {
     margin: 0;
@@ -77,8 +83,16 @@ img {
 /* End Of Global Elements Styles*/
 
 
+
+
+/*
+================================
+Utility Classes
+================================
+*/
+
 /* Global Sections Styles */
-section {
+.section {
     padding: 1.25rem 0;
     width: 100%;
     margin: 0 auto;
@@ -111,7 +125,6 @@ section {
 }
 /* End of Grid Row Styles */
 
-
 /* Grid Column Styles */
 .col {
     padding: 1rem;
@@ -123,5 +136,31 @@ section {
 }
 /* End of Grid Column Styles */
 
+
+
+/* Flex utilities*/
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* End of Flex utilities*/
 
 
