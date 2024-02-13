@@ -229,3 +229,7 @@ nav ul li a:hover {
     z-index: 2;
     height: 80vh;
 }
+
+.quote-content p {
+    text-align: center;
+}
