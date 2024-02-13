@@ -15,7 +15,10 @@ Very Large Screens
     /* End Of Hero Section*/
 
 
-    /*Dance Tour Section*/
+    /*Pricing Section*/
+    .pricing-card {
+        padding: 2.5rem 1rem 0 ;
+    }
     
 
 
@@ -58,6 +61,7 @@ Medium Screens
     .dance-tour {
         background-position: left -50%;
     }
+    /* End Of Dance Tour Section*/
     
 
     
@@ -85,6 +89,7 @@ Small Screens
     .dance-tour {
         background-position: left -20%;
     }
+    /* End Of Dance Tour Section*/
 }
 
 /*
@@ -123,6 +128,15 @@ Very Small Screens
     .dance-tour {
         background-position: left 5%;
     }
+    /* End Of Dance Tour Section*/
+
+
+    /*Pricing Section*/
+    .pricing {
+        background-size: auto 50%;
+        background-position: right bottom ;
+    }
+    /* End Of Pricing Section*/
 }
 
 
@@ -163,6 +177,14 @@ Very Extra Small Screens
     .dance-tour {
         background-position: left 10%;
     }
+    /* End Of Dance Tour Section*/
+
+    /*Pricing Section*/
+    .pricing {
+        background-size: auto 50%;
+        background-position: right center ;
+    }
+    /* End Of Pricing Section*/
 }
 
 /*

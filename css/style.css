@@ -402,22 +402,32 @@ nav ul li a:hover {
 .pricing {
     padding: 2rem 0;
     background-color: #303030;
+    background-image: url('../img/Shape3.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
     
 }
 
 .pricing-card {
-    padding: 1rem 0 0 0;
+    padding: 1rem 0.5rem 0 ;
     background-color: #e8631c;
 }
 
+.pricing-card .card-content > * {
+    display: block;
+    margin-bottom: 1rem;
+}
+
 .pricing-card i {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .pricing-card button {
     background-color: #303030;
     width: 100%;
     margin: auto;
+    margin-bottom: 0 !important;
     text-transform: uppercase;
     font-weight: 600;
 }
