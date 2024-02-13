@@ -432,4 +432,42 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
+.about {
+    padding: 0;
+}
 
+.aboutRow {
+    width: 100%;
+    display: Grid;
+    grid-template-columns: repeat(2,50vw);
+    gap: 0;
+}
+
+.col1 {
+    background-image: url('../img/sec04.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col2, .col3 {
+    background-color: #e8631c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+}
+
+.col4 {
+    background-image: url('../img/sec03.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.about-col-content {
+    min-height: 80vh;
+}
