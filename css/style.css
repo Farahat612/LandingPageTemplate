@@ -61,8 +61,7 @@ a:hover {
 }
 button {
     display: inline-block;
-    padding: 0.5rem 3rem;
-    margin: 0.5rem;
+    padding: 1rem 3rem;
     border: none;
     border-radius: 0;
     background-color: #e8631c;
@@ -395,4 +394,30 @@ nav ul li a:hover {
     border-radius: 0;
     background-color: #303030;
 }
+/* End Of Dance Tour Section*/
 
+
+
+/* Pricing Section*/
+.pricing {
+    padding: 2rem 0;
+    background-color: #303030;
+    
+}
+
+.pricing-card {
+    padding: 1rem 0 0 0;
+    background-color: #e8631c;
+}
+
+.pricing-card i {
+    font-size: 2rem;
+}
+
+.pricing-card button {
+    background-color: #303030;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
