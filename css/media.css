@@ -75,3 +75,17 @@ Very Extra Small Screens
 End of Media Queries
 ================================ 
 */
+
+/* General Media Queries*/
+
+@media (width >= 768px) {
+    .for-mobile {
+        display: none;
+    }
+}
+
+@media (width <= 768px) {
+    .for-desktop {
+        display: none;
+    }
+}
