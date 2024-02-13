@@ -233,3 +233,50 @@ nav ul li a:hover {
 .quote-content p {
     text-align: center;
 }
+/* --------------- End Of Quote Styles --------------- */
+
+
+/* --------------- Footer Styles --------------- */
+footer {
+    background-color: #303030;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.social-icons {
+    gap: 1rem;
+}
+
+
+.footer-content {
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-content .left-content {
+    width: 30%;
+}
+
+.footer-content .right-content {
+    width: 60%;
+    justify-self: flex-end;
+    justify-content: space-between;
+}
+
+.right-content ul {
+    list-style: none;
+
+}
+
+
+/*Mobile Footer*/
+footer .for-mobile .left {
+    width: 30%;
+}
+
+footer .for-mobile .right {
+    width: 40%;
+    justify-self: flex-end;
+    justify-content: space-between;
+}
+/* --------------- End Of Footer Styles --------------- */
