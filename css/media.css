@@ -199,6 +199,23 @@ Very Extra Small Screens
         padding-inline: 1rem;
         font-size: 2.5vw;
     }
+    /* End Of About Section*/
+
+    /* Statistics Section*/
+    .statistics-content { 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .statistic {
+        flex: 1 0 50%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .statistic h3 {
+        margin-bottom: 0.25rem;
+    }
+
 }
 
 /*
