@@ -384,6 +384,10 @@ nav ul li a:hover {
 .dance-tour {
     padding: 2rem 0;
     background-color: #e8631c;
+    background-image: url('../img/Shape.png');
+    background-size: 40% auto;
+    background-position: left -60%;
+    background-repeat: no-repeat;
 }
 
 .dance-tour .section-heading h2 , .dance-tour .section-heading p {

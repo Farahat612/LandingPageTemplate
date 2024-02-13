@@ -16,6 +16,7 @@ Very Large Screens
 
 
     /*Dance Tour Section*/
+    
 
 
 }
@@ -38,7 +39,6 @@ Large Screens
     /* End Of Hero Section*/
 
 
-    /*Dance Tour Section*/
 }
     
 
@@ -51,6 +51,12 @@ Medium Screens
 @media (991px < width <= 1200px) {
     .container {
         width: 960px;
+    }
+
+
+    /*Dance Tour Section*/
+    .dance-tour {
+        background-position: left -50%;
     }
     
 
@@ -72,6 +78,12 @@ Small Screens
     }
     .section-heading p, .card-content p {
         font-size: 1rem;
+    }
+
+
+    /*Dance Tour Section*/
+    .dance-tour {
+        background-position: left -20%;
     }
 }
 
@@ -108,6 +120,9 @@ Very Small Screens
 
 
     /*Dance Tour Section*/
+    .dance-tour {
+        background-position: left 5%;
+    }
 }
 
 
@@ -145,6 +160,9 @@ Very Extra Small Screens
 
 
     /*Dance Tour Section*/
+    .dance-tour {
+        background-position: left 10%;
+    }
 }
 
 /*
