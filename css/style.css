@@ -12,6 +12,8 @@ CSS Reset
 }
 
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -19,6 +21,7 @@ body {
     color: #fff;
     background-color: #f4f4f4;
     position: relative;
+    overflow-x: hidden;
 }
 /* End Of Global Styles*/
 
@@ -100,6 +103,7 @@ Utility Classes
     width: 100%;
     margin: 0 auto;
     position: relative;
+    overflow-x: hidden;
 }
 /* End Of Global Section Styles*/
 
@@ -288,7 +292,7 @@ header {
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #303030;
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -470,4 +474,12 @@ nav ul li a:hover {
 
 .about-col-content {
     min-height: 80vh;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-col-content button {
+    background-color: #303030;
+    color: #fff;
+    padding-block: 0.75rem ;
 }

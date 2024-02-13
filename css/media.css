@@ -77,10 +77,10 @@ Small Screens
     .container {
         width:760px;
     }
-    .section-heading h2 {
+    .section-heading h2, .about-col-content h2 {
         font-size: 2.2rem;
     }
-    .section-heading p, .card-content p {
+    .section-heading p, .card-content p, .about-col-content p {
         font-size: 1rem;
     }
 
@@ -102,10 +102,10 @@ Very Small Screens
     .container {
         width:540px;
     }
-    .section-heading h2 {
+    .section-heading h2, .about-col-content h2 {
         font-size: 2rem;
     }
-    .section-heading p, .card-content p {
+    .section-heading p, .card-content p, .about-col-content p {
         font-size: 0.95rem;
     }
 
@@ -150,10 +150,10 @@ Very Extra Small Screens
     .container {
         width: 100%;
     }
-    .section-heading h2 {
+    .section-heading h2, .about-col-content h2 {
         font-size: 1.8rem;
     }
-    .section-heading p, .card-content p {
+    .section-heading p, .card-content p, .about-col-content p {
         font-size: 0.8rem;
     }
 
@@ -185,6 +185,20 @@ Very Extra Small Screens
         background-position: right center ;
     }
     /* End Of Pricing Section*/
+
+    /* About Section*/
+    .about .col2, .about .col3 {
+        padding: 1rem;
+    }
+    .about-col-content {
+        min-height: 40vh;
+    }
+
+    .about-col-content button {
+        width: 80%;
+        padding-inline: 1rem;
+        font-size: 2.5vw;
+    }
 }
 
 /*
@@ -195,13 +209,13 @@ End of Media Queries
 
 /* General Media Queries*/
 
-@media (width >= 768px) {
+@media (width >= 850px) {
     .for-mobile {
         display: none;
     }
 }
 
-@media (width <= 768px) {
+@media (width <= 850px) {
     .for-desktop {
         display: none;
     }
