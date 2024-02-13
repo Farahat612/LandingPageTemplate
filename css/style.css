@@ -120,7 +120,7 @@ Utility Classes
 
 .section-heading p {
     margin: auto;
-    width: 60%;
+    width: 65%;
     font-size: 1.1rem;
     color: #666;
 }
@@ -157,7 +157,7 @@ Utility Classes
 /* Grid Row Styles */
 .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     gap: 1.25rem;
     justify-items: space-between;
     align-items: center;
@@ -185,7 +185,6 @@ Utility Classes
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     position: relative;
-    min-height: 400px;
 }
 
 .card img {
