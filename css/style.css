@@ -213,3 +213,19 @@ nav ul li a:hover {
     padding-block: 3rem;
 }
 /* --------------- End Of Statistics Styles --------------- */
+
+
+/* --------------- Quote Styles --------------- */
+.quote {
+    min-height: 80vh;
+    background-image: url('../img/quote.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quote-content {
+    position: relative;
+    z-index: 2;
+    height: 80vh;
+}
