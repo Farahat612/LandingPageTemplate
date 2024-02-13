@@ -51,7 +51,7 @@ p {
 }
 
 a {
-    color: #303030;
+    color: #fff;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -110,7 +110,7 @@ Utility Classes
 /* Container Styles */
 .container {
     width: 80%;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -127,6 +127,7 @@ Utility Classes
     justify-items: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 /* End of Grid Row Styles */
 
@@ -191,3 +192,40 @@ Page content styles
 ================================
 */
 
+/* Header Styles */
+header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Navigation Styles */
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #e8631c;
+    color: #fff;
+    
+}
+
+/* End of Navigation Styles */

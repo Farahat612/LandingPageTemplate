@@ -5,7 +5,7 @@ Very Large Screens
 */
 @media (width > 1400px) {
     .container {
-        width: 1320px;
+        width: 1360px;
     }
 }
 
@@ -17,7 +17,7 @@ Large Screens
 
 @media (1200px < width <= 1400px) {
     .container {
-        width: 1140px;
+        width: 1170px;
     }
 }
 
@@ -41,7 +41,7 @@ Small Screens
 
 @media (768px < width <= 990px) {
     .container {
-        width:720px;
+        width:750px;
     }
 }
 

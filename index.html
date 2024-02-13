@@ -11,8 +11,8 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
         <!-- StyleSheets -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
 
@@ -21,16 +21,19 @@
             <!-- Header Container -->
             <div class="container">
                 <!-- Navbar -->
-                <nav class="navbar">
+                <nav class="navbar flex flex-between">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html">Musicology</a>
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Musicology"
+                                height="50px">
+                        </a>
                     </div>
                     <!-- End of Logo -->
 
                     <!-- Nav Menu -->
                     <div class="nav-menu">
-                        <ul>
+                        <ul class="flex flex-between">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="contact.html">Contact</a></li>
@@ -40,7 +43,9 @@
 
                     <!-- Right Icon -->
                     <div class="right-icon">
-                        <a href>Icon</a>
+                        <a href>
+                            <i class="fas fa-search"></i>
+                        </a>
                     </div>
                     <!-- End of Right Icon -->
                 </nav>
@@ -49,7 +54,7 @@
             <!-- End of Header Container -->
         </header>
         <!-- End of Header -->
-        
+
         <script src="js/script.js"></script>
     </body>
 </html>
