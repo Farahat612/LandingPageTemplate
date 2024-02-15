@@ -32,3 +32,10 @@ The root directory of this repo consists of:
 If interested, watch the whole tutorial video explaining my Thought Process for this simple template:
 
 > Or you can Access it [here](https://drive.google.com/file/d/1hv3lhLbQR-05sBgLyUtvvEfGEHLRLjNB/view?usp=sharing).
+
+
+## Explore
+
+You can explore the website through this ([url](https://farahat612.github.io/LandingPageTempalte/)). 
+
+
