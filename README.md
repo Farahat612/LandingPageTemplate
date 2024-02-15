@@ -43,4 +43,11 @@ You can explore the website through this ([url](https://farahat612.github.io/Lan
 - CSS3
 - FontAwesome Icons
 
+## Design Techniques applied:
+
+- Responsive Design.
+- Utility Classes.
+- Flexbox.
+- Grid.
+
 
