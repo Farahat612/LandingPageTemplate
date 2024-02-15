@@ -33,9 +33,14 @@ If interested, watch the whole tutorial video explaining my Thought Process for 
 
 > Or you can Access it [here](https://drive.google.com/file/d/1hv3lhLbQR-05sBgLyUtvvEfGEHLRLjNB/view?usp=sharing).
 
-
 ## Explore
 
-You can explore the website through this ([url](https://farahat612.github.io/LandingPageTempalte/)). 
+You can explore the website through this ([url](https://farahat612.github.io/LandingPageTempalte/)).
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- FontAwesome Icons
 
 
