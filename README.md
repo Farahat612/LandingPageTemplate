@@ -23,6 +23,13 @@ The root directory of this repo consists of:
 > - In addition to repository `LICENSE` and `README` files.
 
 
+## Tutorial 
+If interested, watch the whole tutorial video explaining my Thought Process for this simple template:
+<p align="center">
+    <iframe src="https://drive.google.com/file/d/1hv3lhLbQR-05sBgLyUtvvEfGEHLRLjNB/preview" width="640" height="480" allow="autoplay"></iframe>
+</p>
+
+> Or you can download it [here](https://drive.google.com/file/d/1hv3lhLbQR-05sBgLyUtvvEfGEHLRLjNB/view?usp=sharing).
 
 
 
