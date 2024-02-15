@@ -10,6 +10,18 @@ The template UI design was got from `Freepik` website.
 - You can access the template [here](https://www.freepik.com/free-psd/various-web-printable-templates-with-screen_6990247.htm#query=website%20templates&position=5&from_view=keyword&track=ais&uuid=4f33d966-d0bf-4b2e-8ddf-f1c19ee8b963).
 > All UI Requirements exist in the `UI-Requirements` directory in the repo root directory. 
 
+## Repository Structure
+The root directory of this repo consists of:
+> - `css` directry that has these three stylesheets:
+>   - `global_and_utilities.css` : contains CSS RESET, GLOBAL STYLES and Global Utility Classes.
+>   - `media.css` : contains MEDIA Queries for responsive design.
+>   - `style.css` : contains page content styles.
+> - `img` directry that contains all images.
+> - `js` directry that contains `script` file. [-- No scripts implemented --]
+> - `UI-Rquirements` directry that contains all `UI Design` requirements images.
+> - `index.html` main webpage doument.
+> - In addition to repository `LICENSE` and `README` files.
+
 
 
 
