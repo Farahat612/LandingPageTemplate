@@ -35,7 +35,7 @@ If interested, watch the whole tutorial video explaining my Thought Process for 
 
 ## Explore
 
-You can explore the website through this ([url](https://farahat612.github.io/LandingPageTempalte/)).
+You can explore the website through this ([url](https://farahat612.github.io/LandingPageTemplate/)).
 
 ## Technologies Used
 
